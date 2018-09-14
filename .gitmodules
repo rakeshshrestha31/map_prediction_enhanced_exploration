@@ -6,3 +6,7 @@
 	path = online_map_completion_msgs
 	url = https://github.com/rakeshshrestha31/online_map_completion_msgs.git
 	branch = master
+[submodule "online_map_completion"]
+	path = online_map_completion
+	url = https://github.com/rakeshshrestha31/online_map_completion.git
+	branch = master
