@@ -1,0 +1,4 @@
+[submodule "stage_frontier_datagen"]
+	path = stage_frontier_datagen
+	url = https://github.com/rakeshshrestha31/stage_frontier_datagen.git
+	branch = origin
