@@ -2,3 +2,7 @@
 	path = stage_frontier_datagen
 	url = https://github.com/rakeshshrestha31/stage_frontier_datagen.git
 	branch = origin
+[submodule "online_map_completion_msgs"]
+	path = online_map_completion_msgs
+	url = https://github.com/rakeshshrestha31/online_map_completion_msgs.git
+	branch = master
