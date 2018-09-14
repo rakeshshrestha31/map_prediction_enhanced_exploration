@@ -18,3 +18,7 @@
 	path = Stage
 	url = https://github.com/rakeshshrestha31/Stage.git
 	branch = master
+[submodule "libfloorplan"]
+	path = libfloorplan
+	url = https://github.com/rakeshshrestha31/libfloorplan.git
+	branch = master
