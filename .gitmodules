@@ -10,3 +10,7 @@
 	path = online_map_completion
 	url = https://github.com/rakeshshrestha31/online_map_completion.git
 	branch = master
+[submodule "ground_truth_layer"]
+	path = ground_truth_layer
+	url = https://github.com/rakeshshrestha31/ground_truth_layer.git
+	branch = master
