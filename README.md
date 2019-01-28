@@ -6,7 +6,7 @@ Open-source modules for ICRA 2019 submission "Learned Map Prediction for Enhance
 ](https://img.youtube.com/vi/NRgXYdxroJE/0.jpg)](https://youtu.be/NRgXYdxroJE "Supplementary Video")
 
 # Preprint
-[Link](https://github.com/rakeshshrestha31/map_prediction_enhanced_exploration/blob/master/ICRA19_Preprint.pdf)
+[Link](https://github.com/rakeshshrestha31/map_prediction_enhanced_exploration/blob/master/shrestha_icra19_preprint.pdf)
 
 # Modules
 ## Online Map Completion
