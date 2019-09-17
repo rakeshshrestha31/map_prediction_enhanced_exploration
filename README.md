@@ -29,3 +29,40 @@ Fork of hector navigation for hector exploration planner ([hector_navigation](ht
 
 ## libfloorplan
 Fork of [kth_libfloorplan](https://github.com/alperv/libfloorplan) for parsing KTH floorplan dataset
+
+# Building
+
+## Clone the repo to src directory of your workspace
+```
+git clone https://github.com/rakeshshrestha31/map_prediction_enhanced_exploration
+cd map_prediction_enhanced_exploration
+git submodule update --init --recursive
+```
+
+## Build the Stage simulator
+```
+cd <stage_directory>
+mkdir build
+cd build
+cmake ..
+make -j<num_jobs>
+sudo make install
+```
+(Note: if you don't want the simulator to be installed in /usr/local set CMAKE\_INSTALL\_PREFIX appropriately)
+
+## Build the libfloorplan library
+```
+cd <libfloorplan_directory>
+mkdir build
+cd build
+cmake ..
+make -j<num_jobs>
+make install
+# this can be added to .bashrc or .zshrc
+export LIB_FLOORPLAN_PATH=<libfloorplan_directory>
+```
+
+## Build the catkin workspace
+```
+catkin build
+```

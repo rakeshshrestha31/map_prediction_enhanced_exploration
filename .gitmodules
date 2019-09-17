@@ -26,3 +26,6 @@
 	path = hector_navigation
 	url = https://github.com/rakeshshrestha31/hector_navigation.git
 	branch = master
+[submodule "path-smoothing-ros"]
+	path = path-smoothing-ros
+	url = https://github.com/rakeshshrestha31/path-smoothing-ros.git
