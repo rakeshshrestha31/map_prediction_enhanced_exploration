@@ -39,6 +39,12 @@ cd map_prediction_enhanced_exploration
 git submodule update --init --recursive
 ```
 
+## install dependencies
+```
+bash install_deps.sh
+rosdep install --from-paths src --ignore-src -y -r
+```
+
 ## Build the Stage simulator
 ```
 cd <stage_directory>
