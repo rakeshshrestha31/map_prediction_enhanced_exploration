@@ -72,3 +72,15 @@ export LIB_FLOORPLAN_PATH=<libfloorplan_directory>
 ```
 catkin build
 ```
+
+## Download KTH dataset
+```
+cd <datasets_directory>
+wget http://www.csc.kth.se/~aydemir/KTH_CampusValhallavagen_Floorplan_Dataset.tar.bz2
+tar xvf KTH_CampusValhallavagen_Floorplan_Dataset.tar.bz2
+```
+
+## Generating partial maps dataset
+```
+rosrun stage_frontier_datagen kth_stage_node _dataset_dir:=<kth_dataset_dir> _data_record_dir:=<generated_dataset_dir>
+```
